@@ -1,15 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 body {
     background-image: url(../assets/img/bg/bg.jpg);
     background-size: cover;
-    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden;
 }
 
 header {
     border-bottom: solid 3px #aa0050;
+    min-height: 15vh;
 }
 
 .img-logo {
     width: 50vh;
+}
+
+main {
+    min-height: 50vh;
+}
+
+.cards-fix {
+    object-fit:cover;
+    min-height: 30rem;
+    max-height: 30rem;
+    width: 15rem;
+}
+
+.card-img-top {
+    object-fit:cover;
+    min-height: 12rem;
+    max-height: 12rem;
+}
+
+footer {
+    min-height: 10vh;
 }
 
 .a-nav-inferior-r{
