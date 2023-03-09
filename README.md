@@ -1,4 +1,4 @@
-# amazingevents_RAGGIO
+# Amazing Events - Task 3
 Este código JavaScript nos permite filtrar eventos por categoría o por palabra clave.
 Además, podemos ver los eventos disponibles y hacer "click" en el botón para ir a los detalles de cada uno.
 
